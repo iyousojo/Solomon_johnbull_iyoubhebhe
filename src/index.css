@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* This is where we define our custom elegant colors for v4 */
+@theme {
+  --color-soft-black: #050505;
+  --color-card-gray: #121212;
+  --color-accent-blue: #3b82f6;
+}
+
+body {
+  background-color: var(--color-soft-black);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
