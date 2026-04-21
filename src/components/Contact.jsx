@@ -46,7 +46,7 @@ const Contact = () => {
           <div className="space-y-4">
             <p className="text-sm font-bold uppercase tracking-widest text-gray-600">Direct Email</p>
             <a href="mailto:iyousojo@example.com" className="text-2xl font-medium hover:text-accent-blue transition-colors text-white">
-              iyousojo@example.com
+              solomonjohnbull676@gmail.com
             </a>
           </div>
         </div>
