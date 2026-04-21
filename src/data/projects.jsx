@@ -45,7 +45,7 @@ export const projects = [
     id: 3,
     title: "FinTech E-Book Platform",
     description: "Digital marketplace featuring Paystack integration for automated payment verification and secure content delivery.",
-    tags: ["Node.js", "Paystack API", "E-commerce"],
+    tags: ["HTML", "CSS", "Node.js", "Paystack"], // Updated Tech
     githubLink: "https://github.com/iyousojo/book-shop-payment-management-",
     apiLink: "https://bookshop-api-jbl4.onrender.com",
     liveLink: "https://daniel-six-rust.vercel.app/",
@@ -56,7 +56,7 @@ export const projects = [
     id: 4,
     title: "Academic Project Manager",
     description: "A workflow tool for student-supervisor milestone tracking with robust Role-Based Access Control.",
-    tags: ["React", "Node.js", "RBAC"],
+    tags: ["React Native", "Node.js", "RBAC"], // Updated Tech
     githubLink: "https://github.com/iyousojo/projectmanager",
     apiLink: "https://projectmanagerapi-o885.onrender.com",
     downloadLink: "https://mega.nz/file/4qlgnCrR#TRAdFE23zXab_a3hPZ8xdGI2HwA5VsLoEvZQavXp5k8", 
@@ -67,7 +67,7 @@ export const projects = [
     id: 5,
     title: "Libroflow",
     description: "Automated library system for massive inventory tracking and circulation management.",
-    tags: ["React", "Node.js", "Inventory"],
+    tags: ["HTML", "CSS", "Node.js", "Inventory"], // Updated Tech
     githubLink: "https://github.com/iyousojo/library-managent-system",
     apiLink: "https://libroflow-admin.onrender.com",
     liveLink: "https://library-managent-system.vercel.app/", 

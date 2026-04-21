@@ -44,11 +44,14 @@ const Contact = () => {
             Whether you have a question or just want to say hi, I’ll get back to you!
           </p>
           <div className="space-y-4">
-            <p className="text-sm font-bold uppercase tracking-widest text-gray-600">Direct Email</p>
-            <a href="mailto:iyousojo@example.com" className="text-2xl font-medium hover:text-accent-blue transition-colors text-white">
-              solomonjohnbull676@gmail.com
-            </a>
-          </div>
+  <p className="text-sm font-bold uppercase tracking-widest text-gray-600">Direct Email</p>
+  <a 
+    href="mailto:solomonjohnbull676@gmail.com" 
+    className="text-lg sm:text-xl md:text-2xl font-medium hover:text-accent-blue transition-colors text-white break-all block"
+  >
+    solomonjohnbull676@gmail.com
+  </a>
+</div>
         </div>
 
         {/* Right Side: The Form */}
