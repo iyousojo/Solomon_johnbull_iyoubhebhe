@@ -42,7 +42,7 @@ const Hero = () => {
 
             {/* --- MEGA CV DOWNLOAD LINK --- */}
             <a 
-              href="https://mega.nz/file/VjlCXZDY#W5GFfmN6XfeLU39QRCjGM-hZ8NW5IoPSqNpjsRTBzTo" // Replace with your actual MEGA link
+              href="https://mega.nz/file/A2lT1ThK#PpmTDTwBrIi2kP3KXvtCzmDhRlnUEUt5Ab-YqRu1sB8" // Replace with your actual MEGA link
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-transparent border border-white/20 hover:border-white text-gray-300 hover:text-white rounded-sm transition-all w-full sm:w-auto text-center text-sm font-semibold tracking-wide flex items-center justify-center gap-2"
