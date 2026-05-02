@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">Social</span>
               <a href="https://github.com/iyousojo" target="_blank" rel="noreferrer" className="text-sm text-gray-300 hover:text-blue-500 transition-colors">GitHub</a>
-              <a href="#" className="text-sm text-gray-300 hover:text-blue-500 transition-colors">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/solomon-iyoubhebhe-8347682b1" className="text-sm text-gray-300 hover:text-blue-500 transition-colors">LinkedIn</a>
             </div>
             
             <div className="flex flex-col gap-4">

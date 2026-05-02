@@ -42,7 +42,7 @@ const Hero = () => {
 
             {/* --- MEGA CV DOWNLOAD LINK --- */}
             <a 
-              href="https://mega.nz/file/A2lT1ThK#PpmTDTwBrIi2kP3KXvtCzmDhRlnUEUt5Ab-YqRu1sB8" // Replace with your actual MEGA link
+              href="https://myresume-iota-two.vercel.app/" // Replace with your actual download  link
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-transparent border border-white/20 hover:border-white text-gray-300 hover:text-white rounded-sm transition-all w-full sm:w-auto text-center text-sm font-semibold tracking-wide flex items-center justify-center gap-2"
@@ -69,7 +69,7 @@ const Hero = () => {
             {Portrait ? (
               <img 
                 src={Portrait} 
-                alt="Iyanuoluwa Yousojo" 
+                alt="Iyousojo Portrait" 
                 className="w-full h-full object-cover rounded-2xl group-hover:scale-[1.03] transition-transform duration-700 z-10"
               />
             ) : (
