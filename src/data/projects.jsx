@@ -10,12 +10,11 @@ import studentApp from '../assets/projects/studentattendanceapp(screenshot).jpg'
 import studentApi from '../assets/projects/studentattendanceapi(screenshot).png';
 import notifyClient from '../assets/projects/studentnotification(screenshot).png';
 import notifyApi from '../assets/projects/studentnotificationapi(screenshot).png';
-import ebook from '../assets/projects/Academic Digital Resources - Google Chrome 20-Apr-26 5_11_49 PM.png';
 import bookEcom from '../assets/projects/bookecommercesystem.png';
 import projectApp from '../assets/projects/projectmanagementapp(screenshot).jpg';
 import projectApi from '../assets/projects/projectmangerapi(screenshot).png';
 import libaryApi from '../assets/projects/libarymanagemetsyem.api(screenshot).png';
-import libaryweb from '../assets/projects/Access LibroFlow _ Secure Login - .png';
+
 
 export const projects = [
   {
@@ -42,16 +41,15 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
-    title: "FinTech E-Book Platform",
-    description: "Digital marketplace featuring Paystack integration for automated payment verification and secure content delivery.",
-    tags: ["HTML", "CSS", "Node.js", "Paystack"], // Updated Tech
-    githubLink: "https://github.com/iyousojo/book-shop-payment-management-",
-    apiLink: "https://bookshop-api-jbl4.onrender.com",
-    liveLink: "https://daniel-six-rust.vercel.app/",
-    screenshots: [ebook , bookEcom],
-    featured: true,
-  },
+  id: 3,
+  title: "FinTech E-Book Platform(api server)",
+  description: "RESTful backend for an academic digital bookshop where students buy PDF textbooks and admins manage inventory, with JWT auth, Paystack payment verification via webhooks, and Cloudinary-hosted file uploads.",
+  tags: ["Node.js", "Express", "MongoDB", "Paystack"],
+  githubLink: "https://github.com/iyousojo/bookshop-api",
+  apiLink: "https://bookshop-api-jbl4.onrender.com",
+  screenshots: [bookEcom],
+  featured: true,
+},
   {
     id: 4,
     title: "Academic Project Manager",
@@ -63,17 +61,16 @@ export const projects = [
     screenshots: [projectApp, projectApi],
     featured: true,
   },
-  {
-    id: 5,
-    title: "Libroflow",
-    description: "Automated library system for massive inventory tracking and circulation management.",
-    tags: ["HTML", "CSS", "Node.js", "Inventory"], // Updated Tech
-    githubLink: "https://github.com/iyousojo/library-managent-system",
-    apiLink: "https://libroflow-admin.onrender.com",
-    liveLink: "https://library-managent-system.vercel.app/", 
-    screenshots: [libaryweb, libaryApi],
-    featured: true,
-  }
+ {
+  id: 5,
+  title: "Libroflow(api server)",
+  description: "Full-stack library management system with dual-role JWT auth, real-time inventory tracking, and a digital wallet letting students top up and pay overdue fines, built on a Service-Repository architecture.",
+  tags: ["Node.js", "Express", "MongoDB", "JWT"],
+  githubLink: "https://github.com/iyousojo/libroflow-api",
+  apiLink: "https://libroflow-admin.onrender.com",
+  screenshots: [libaryApi],
+  featured: true,
+}
 ];
 
 export const skills = [
